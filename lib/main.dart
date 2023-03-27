@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:watsapp_saver/image.dart';
+import 'package:watsapp_saver/imageveiw.dart';
 import 'package:watsapp_saver/mainpage.dart';
 import 'package:watsapp_saver/navprovider.dart';
 import 'package:watsapp_saver/video.dart';
@@ -19,6 +20,7 @@ void main() {
           "mainpage": (context) => MyMainPage(),
           "image": (context) => MyImage(),
           "video": (context) => MyVideo(),
+          "imageveiw": (context) => MyImageVeiw(),
         },
       ),
     ),

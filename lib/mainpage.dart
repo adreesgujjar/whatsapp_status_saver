@@ -30,8 +30,7 @@ class _MyMainPageState extends State<MyMainPage> {
           }),
           items: [
             BottomNavigationBarItem(icon: Icon(Icons.image), label: "image"),
-            BottomNavigationBarItem(
-                icon: Icon(Icons.video_file), label: "video"),
+            BottomNavigationBarItem(icon: Icon(Icons.video_file), label: "video"),
           ],
         ),
       );
